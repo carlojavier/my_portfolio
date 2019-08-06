@@ -1,26 +1,24 @@
-import React, { useState } from 'react';
-import logo from './logo.svg';
+import React from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom"
-import './App.css';
+import './App.scss';
+import HomePage from './components/HomePage'
+import NavBar from './components/NavBar'
 
-const HomeScreen = () => {
-  return (
-    <div>
-      <img src={""} />
-      <h1>Welcome to my portfolio</h1>
-    </div>
-  )
-}
+
 
 function App() {
 
   return (
-    <div className="App">
-      <Router>
-        <Route path="/" exact component={HomeScreen} />
-      </Router>
+    <Router>
+      <div className="App">
+        <NavBar />
+        <div className="page-container">
+          <Link to="/">Home</Link>
+          <Route path="/" exact component={HomePage} />
+        </div>
 
-    </div>
+      </div>
+    </Router>
   );
 }
 

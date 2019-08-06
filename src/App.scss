@@ -1,0 +1,29 @@
+
+/* ==== Nav ==== */
+
+.nav-container {
+  background-color: #dad6ce;
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
+  -webkit-box-flex: 1;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+}
+
+.nav-logo-container {
+  width: 100%;
+  display: flex;
+  padding: 30px 15px;
+}
+
+.nav-links {
+  display: -webkit-inline-box;
+  display: flex;
+  display: inline-flex;
+  margin-left: auto;
+  padding-top: 4px;
+}
