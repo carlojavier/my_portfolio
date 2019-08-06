@@ -19,13 +19,14 @@ body {
 }
 
 .nav-logo-container {
-  width: 100%;
   display: flex;
+  justify-content: space-between;
+  width: 100%;
   padding: 30px 15px;
 }
 
 .title {
-  padding-left: 30px;
+  padding-left: 50px;
 
   .title .nav-logo {
     text-decoration: none;
@@ -34,6 +35,10 @@ body {
 
 .nav-links {
   display: flex;
+  justify-content: space-evenly;
+  width: 45%;
   margin: auto;
-  padding-right: 30px;
+  margin-left: 0;
+  margin-right: 0;
+  padding-right: 50px;
 }
