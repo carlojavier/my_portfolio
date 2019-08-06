@@ -13,10 +13,8 @@ function App() {
       <div className="App">
         <NavBar />
         <div className="page-container">
-          <Link to="/">Home</Link>
           <Route path="/" exact component={HomePage} />
         </div>
-
       </div>
     </Router>
   );

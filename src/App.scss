@@ -1,17 +1,21 @@
-
+body {
+  display: block;
+  margin: 8px;
+  background-color: #dad6ce;
+}
 /* ==== Nav ==== */
 
 .nav-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
   background-color: #dad6ce;
   height: auto;
   width: 100%;
   margin: 0 auto;
-  -webkit-box-flex: 1;
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  flex-direction: column;
 }
 
 .nav-logo-container {
@@ -20,10 +24,16 @@
   padding: 30px 15px;
 }
 
+.title {
+  padding-left: 30px;
+
+  .title .nav-logo {
+    text-decoration: none;
+  }
+}
+
 .nav-links {
-  display: -webkit-inline-box;
   display: flex;
-  display: inline-flex;
-  margin-left: auto;
-  padding-top: 4px;
+  margin: auto;
+  padding-right: 30px;
 }
