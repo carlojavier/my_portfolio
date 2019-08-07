@@ -26,11 +26,13 @@ body {
 }
 
 .title {
-  padding-left: 50px;
+  padding-left: 6em;
 
-  .title .nav-logo {
-    text-decoration: none;
-  }
+}
+
+.nav-logo {
+  text-decoration: none;
+  color:black;
 }
 
 .nav-links {
@@ -41,4 +43,29 @@ body {
   margin-left: 0;
   margin-right: 0;
   padding-right: 50px;
+  font-size: 20px;
+}
+
+/* ==== Main ==== */
+
+.main-container {
+  background: white;
+  height: 600px;
+  padding: 40px;
+  margin: 4em;
+  
+}
+
+.about-title {
+  margin: 2em;
+}
+
+.about-title h1 {
+  font-size: 60px;
+}
+
+.about-container {
+  margin: 1em;
+  width: 50%;
+  font-size: 30px;
 }
